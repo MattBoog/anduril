@@ -78,6 +78,10 @@
 #undef BLINK_AT_RAMP_MIDDLE
 #endif
 
+#ifdef BLINK_AT_RAMP_CEIL
+#undef BLINK_AT_RAMP_CEIL
+#endif
+
 // enable factory reset on 13H without loosening tailcap (required)
 #define USE_SOFT_FACTORY_RESET
 
